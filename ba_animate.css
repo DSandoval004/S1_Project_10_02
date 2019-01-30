@@ -51,6 +51,12 @@ nav a:hover {
         left: 380px;
         filter: drop-shadow(0 0 0 rgb(51, 51, 51));
         -webkit-filter: drop-shadow(0 0 0 rgb(51, 51, 51));
+
+        transform: scaleX(0.4);
+        -webkit-transform: scaleX(0.4);
+        -moz-transform: scaleX(0.4);
+        -ms-transform: scaleX(0.4);
+        -o-transform: scaleX(0.4);
     }
 
     51% {
@@ -87,6 +93,12 @@ nav a:hover {
         right: 380px;
         filter: drop-shadow(0 0 0 rgb(51, 51, 51));
         -webkit-filter: drop-shadow(0 0 0 rgb(51, 51, 51));
+
+        transform: scaleX(0.4);
+        -webkit-transform: scaleX(0.4);
+        -moz-transform: scaleX(0.4);
+        -ms-transform: scaleX(0.4);
+        -o-transform: scaleX(0.4);
     }
 
     51% {
