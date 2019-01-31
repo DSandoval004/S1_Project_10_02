@@ -12,6 +12,7 @@
 */
 
 /* Transition Styles */
+/* Gives the navbar links a custom background, and added a transition that changes the background and font color. */
 nav a {
     background-image: url(ba_target.png);
     background-repeat: no-repeat;
@@ -32,6 +33,7 @@ nav a:hover {
 }
 
 /* Animation Styles */
+/* This animation moves the object right, then smushes it then makes it move left slower. */
 @keyframes moveRed {
     0% {
         filter: drop-shadow(-40px 20px 25px rgb(51, 51, 51));
@@ -74,6 +76,7 @@ nav a:hover {
     }
 }
 
+/* This animation moves the object left, then smushes it then makes it move right faster. */
 @keyframes moveBlue {
     0% {
         filter: drop-shadow(40px 20px 25px rgb(51, 51, 51));
@@ -116,6 +119,7 @@ nav a:hover {
     }
 }
 
+/* This makes it display text when the two object collide. */
 @keyframes showText {
     0% {
         opacity: 0;
@@ -134,6 +138,7 @@ nav a:hover {
     }
 }
 
+/* This makes it hides text when the two object collide. */
 @keyframes hideText {
     0% {
         opacity: 1;
@@ -152,6 +157,7 @@ nav a:hover {
     }
 }
 
+/* Aplies the proper animation to the proper object, the animation takes 5 seconds, the time frame is linear and it repeats an infinite amount of time. */
 img#redBall {
     animation: moveRed 5s linear infinite;
     -webkit-animation: moveRed 5s linear infinite;
